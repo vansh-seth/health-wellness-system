@@ -1,0 +1,50 @@
+================================================================================
+HEALTH PREDICTION MODELS - EVALUATION REPORT V3
+================================================================================
+
+Configuration:
+  Model Type: stacking
+  Lookback Days: 28
+  Sample Rate: 0.5
+  Training Samples: 12,400
+  Validation Samples: 3,100
+  Features: 127
+
+
+Sleep Quality:
+------------------------------------------------------------
+  mse                 : 2.6648
+  rmse                : 1.6324
+  mae                 : 1.3059
+  median_ae           : 1.0834
+  r2_score            : 0.2087
+  mape                : 25.5334
+  explained_variance  : 0.2089
+
+Mood Score:
+------------------------------------------------------------
+  mse                 : 2.5320
+  rmse                : 1.5912
+  mae                 : 1.2770
+  median_ae           : 1.1073
+  r2_score            : 0.3660
+  mape                : 23.2595
+  explained_variance  : 0.3661
+
+Stress Level:
+------------------------------------------------------------
+  mse                 : 1.5648
+  rmse                : 1.2509
+  mae                 : 0.9910
+  median_ae           : 0.8361
+  r2_score            : 0.6507
+  mape                : 39.2230
+  explained_variance  : 0.6509
+
+Exercise Binary:
+------------------------------------------------------------
+  accuracy            : 0.7245
+  precision           : 0.7248
+  recall              : 0.6998
+  f1_score            : 0.7121
+  auc_roc             : 0.7938
